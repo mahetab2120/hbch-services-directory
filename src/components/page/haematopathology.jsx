@@ -2,7 +2,7 @@ import React from 'react'
 
 function Haematopathology() {
   return (
-    <div>Haematopathology</div>
+    <div className='cont-box'>Haematopathology</div>
   )
 }
 

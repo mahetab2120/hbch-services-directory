@@ -2,7 +2,7 @@ import React from 'react'
 
 function Pathology() {
   return (
-    <div>Pathology</div>
+    <div className='cont-box'>Pathology</div>
   )
 }
 

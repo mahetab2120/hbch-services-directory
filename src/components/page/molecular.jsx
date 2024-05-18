@@ -2,7 +2,7 @@ import React from 'react'
 
 function Molecular() {
   return (
-    <div>Molecular</div>
+    <div className='cont-box'>Molecular</div>
   )
 }
 

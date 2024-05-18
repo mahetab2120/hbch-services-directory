@@ -7,4 +7,17 @@ body {
   background-color: rgb(15, 23, 41);
 }
 
-
+.cont-box{
+  /* border: 2px solid red;*/
+  background-color: rgba(220, 47, 47, 0.2); 
+  border-radius: 1em;
+  background-clip: padding-box;
+  margin: 1em;
+  height: 65vh;
+  border: #dc2f2f solid 1px;
+  text-align: center;
+  /* backdrop-filter: blur(4px); */
+  /* opacity: 20%; */
+  backdrop-filter: blur(4px);
+  color: rgb(9, 122, 221);
+}

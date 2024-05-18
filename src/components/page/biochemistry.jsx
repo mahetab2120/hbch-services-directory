@@ -2,7 +2,7 @@ import React from 'react'
 
 function Biochemistry() {
   return (
-    <div>Biochemistry</div>
+    <div className='cont-box'>Biochemistry</div>
   )
 }
 

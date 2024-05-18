@@ -18,7 +18,7 @@ function App() {
     <Router>
         <div className="App">
       <Logo />
-      <div className='text-center mt-4 text-xl text-white'>SERVICES DIRECTORY</div>
+      <div className='text-center mt-4 text-xl text-white '>SERVICES DIRECTORY</div>
       <Navbar />
       <Routes>
         <Route path='/' element={<Biochemistry />} />

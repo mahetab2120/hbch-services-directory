@@ -1,8 +1,9 @@
 import React from 'react'
+import styles from '../navbar.module.css'
 
 function Transfusion() {
   return (
-    <div className='cont-box'>Transfusion</div>
+    <div className={`${styles['insec7']+' mt-4 cont-box border'}`}>Transfusion</div>
   )
 }
 

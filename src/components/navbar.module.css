@@ -1,37 +1,37 @@
 
-.tabColor1{
+.tabColor1, .insec1{
     background-color: rgba(220, 47, 47,.2);
     border-color: #dc2f2f;
     color: #dc2f2f;
 }
-.tabColor2{
+.tabColor2, .insec2{
     background-color: rgba(0, 187, 240,.2);
     border-color: #00bbf0;
     color: #00bbf0;
 }
-.tabColor3{
+.tabColor3, .insec3{
     background-color: rgba(245, 220, 154,.2);
     border-color: #f5dc9a;
     color: #f5dc9a;
     
 }
-.tabColor4{
+.tabColor4, .insec4{
     background-color: rgba(34, 197, 94,.2);
     border-color: #22c55e;
     color: #22c55e;
 }
-.tabColor5{
+.tabColor5, .insec5{
     background-color: rgba(137, 113, 208,.2)
     ;
     border-color: #8971d0;
     color: #8971d0;
 }
-.tabColor6{
+.tabColor6, .insec6{
     background-color: rgba(236, 64, 122,.2);
     border-color: #ec407a;
     color: #ec407a;
 }
-.tabColor7{
+.tabColor7, .insec7{
     background-color: rgba(255, 143, 0,.2);
     border-color: #ff8f00;
     color: #ff8f00;

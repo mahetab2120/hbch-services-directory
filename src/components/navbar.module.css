@@ -10,9 +10,9 @@
     color: #00bbf0;
 }
 .tabColor3, .insec3{
-    background-color: rgba(245, 220, 154,.2);
-    border-color: #f5dc9a;
-    color: #f5dc9a;
+    background-color: rgba(202, 135, 135,.2);
+    border-color: rgb(202, 135, 135);
+    color: rgb(202, 135, 135);
     
 }
 .tabColor4, .insec4{
@@ -37,36 +37,107 @@
     color: #ff8f00;
 }
 
-.tabColor1-active, .tabColor1:hover{
+.tabColor1-active{
     background-color: rgba(220, 47, 47,1);
     
 }
-.tabColor2-active, .tabColor2:hover{
+.tabColor2-active{
     background-color: rgba(0, 187, 240,1);
     
 }
-.tabColor3-active, .tabColor3:hover{
-    background-color: rgba(245, 220, 154,1);
+.tabColor3-active{
+    background-color: rgb(202, 135, 135);
     
     
 }
-.tabColor4-active, .tabColor4:hover{
+.tabColor4-active{
     background-color: rgba(34, 197, 94,1);
     
 }
-.tabColor5-active, .tabColor5:hover{
+.tabColor5-active{
     background-color: rgba(137, 113, 208,1)
     ;
     
 }
-.tabColor6-active, .tabColor6:hover{
+.tabColor6-active{
     background-color: rgba(236, 64, 122,1);
     
 }
-.tabColor7-active, .tabColor7:hover{
+.tabColor7-active{
     background-color: rgba(255, 143, 0,1);
     
 }
 .tab-active{
-    color: rgb(15 23 42);
+    /* color: rgb(15 23 42); */
+    color: white;
 }
+
+.tabColor1:hover{
+    
+  box-shadow: inset 0 -100px 0 0 rgba(220, 47, 47,1);
+}
+.tabColor2:hover{
+    
+  box-shadow: inset 0 -100px 0 0 rgba(0, 187, 240,1);
+}
+.tabColor3:hover{
+    
+  box-shadow: inset 0 -100px 0 0  rgb(202, 135, 135);
+}
+.tabColor4:hover{
+    
+  box-shadow: inset 0 -100px 0 0 rgba(34, 197, 94,1);
+}
+.tabColor5:hover{
+    
+  box-shadow: inset 0 -100px 0 0 rgba(137, 113, 208,1);
+}
+.tabColor6:hover{
+    
+  box-shadow: inset 0 -100px 0 0  rgba(236, 64, 122,1);
+}
+.tabColor7:hover{
+    
+  box-shadow: inset 0 -100px 0 0 rgba(255, 143, 0,1);
+}
+
+.tabtran-tabColor1{
+    
+  box-shadow: inset 0 0 0 0 rgba(220, 47, 47,1);
+  
+}
+.tabtran-tabColor2{
+    
+    box-shadow: inset 0 0 0 0 rgba(0, 187, 240,1);
+    
+  }
+  .tabtran-tabColor3{
+    
+    box-shadow: inset 0 0 0 0  rgb(202, 135, 135);
+    
+  
+    
+  }
+  .tabtran-tabColor4{
+    
+    box-shadow: inset 0 0 0 0 rgba(34, 197, 94,1);
+    
+  }
+  .tabtran-tabColor5{
+      
+      box-shadow: inset 0 0 0 0 rgba(137, 113, 208,1);
+      
+    }
+    .tabtran-tabColor6{
+      
+      box-shadow: inset 0 0 0 0  rgba(236, 64, 122,1);
+      
+    }
+    .tabtran-tabColor7{
+      
+        box-shadow: inset 0 0 0 0 rgba(255, 143, 0,1);
+        
+      }
+      .tran{
+        transition: ease-out 0.5s;
+      }
